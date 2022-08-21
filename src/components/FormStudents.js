@@ -57,16 +57,18 @@ export const FormStudents = () => {
                 }
             }
         >
-            <div className="form-control">
-                <label htmlFor="Nombres" className="form-label">Nombres</label>
-                <input type="text" className="form-input" placeholder='Nombres' value={nombres}
-                    onChange={(e) => setNombres(e.target.value)} name='Nombres' required />
-            </div>
+            <div className="form-row">
+                <div className="form-control">
+                    <label htmlFor="Nombres" className="form-label">Nombres</label>
+                    <input type="text" className="form-input" placeholder='Nombres' value={nombres}
+                        onChange={(e) => setNombres(e.target.value)} name='Nombres' required />
+                </div>
 
-            <div className="form-control">
-                <label htmlFor="Apellidos" className="form-label">Apellidos</label>
-                <input type="text" className="form-input" placeholder='Apellidos' value={apellidos}
-                    onChange={(e) => setApellidos(e.target.value)} name='Apellidos' required />
+                <div className="form-control">
+                    <label htmlFor="Apellidos" className="form-label">Apellidos</label>
+                    <input type="text" className="form-input" placeholder='Apellidos' value={apellidos}
+                        onChange={(e) => setApellidos(e.target.value)} name='Apellidos' required />
+                </div>
             </div>
 
             <div className="form-control">
