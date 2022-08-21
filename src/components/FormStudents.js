@@ -18,7 +18,7 @@ export const FormStudents = () => {
     const [tipoDoc, setTipoDoc] = useState('0');
     const [documento, setDocumento] = useState('');
     const [colegio, setColegio] = useState('0');
-    const [municipio, setMunicipio] = useState('');
+    const [municipio, setMunicipio] = useState('0');
     const [curso, setCurso] = useState('0');
     const [loading, setLoading] = useState(false);
     const [email, setEmail] = useState('');
@@ -147,9 +147,9 @@ export const FormStudents = () => {
                 <select name="curso" id="curso" className="form-select" value={curso}
                     onChange={(e) => setCurso(e.target.value)}>
                     <option value="0"> ¡Elige un curso! </option>
-                    <option value="Liderazgo e inteligencia financiera">Liderazgo e inteligencia financiera</option>
-                    <option value="Diseño y Trasformacion social">Diseño y Trasformación social</option>
-                    <option value="Programando el Futuro">Programando el Futuro</option>
+                    <option value="Building your future business">Building your future business</option>
+                    <option value="Diseño de una nueva realidad">Diseño de una nueva realidad</option>
+                    <option value="Programando el futuro">Programando el futuro</option>
                 </select>
             </div>
             {
