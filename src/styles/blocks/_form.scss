@@ -1,0 +1,85 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 70%;
+
+    &-row {
+        display: flex;
+    }
+
+    &-control {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+
+        &-50{
+            display: flex;
+            flex-direction: column;
+            padding: 0.5rem;
+            width: 100%;
+        }
+    }
+
+    &-input {
+        width: 100%;
+        height: 2.7rem;
+        border-radius: 10px;
+        border: solid 1px #acacac;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 0.5rem;
+        font-size: 1.2em;
+
+        &-50 {
+            height: 2.7rem;
+            border-radius: 10px;
+            border: solid 1px #acacac;
+            font-family: 'Poppins', sans-serif;
+            padding-left: 0.5rem;
+            font-size: 1.2em;
+            width: 100%;
+        }
+    }
+
+    &-select {
+        width: 100%;
+        height: 2.7rem;
+        border-radius: 10px;
+        border: solid 1px #acacac;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 0.5rem;
+        font-size: 1.2em;
+    }
+
+    &-label {
+        margin-bottom: 0.2rem;
+    }
+
+    &-button {
+        margin-top: 1rem;
+        width: 100%;
+        height: 3rem;
+        background: #bc4e9c;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f80759, #bc4e9c);
+        color: #fff;
+        border-radius: 10px;
+        border: hidden;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+
+        &:hover {
+            background: #bc4e9c;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #ad003a, #873770);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #b3053f, #80366b);
+            cursor: pointer;
+        }
+    }
+}

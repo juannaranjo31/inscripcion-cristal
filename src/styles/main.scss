@@ -1,0 +1,36 @@
+@import './blocks/form';
+@import './blocks/welcome';
+@import './blocks/overlay';
+@import './blocks/spinner-effect';
+@import './blocks/spinner';
+@import './media-queries/phone';
+@import './media-queries/ipad';
+@import './media-queries/ipadpro';
+@import './media-queries/mackbookair';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap');
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app{
+    width: 75rem;
+}
+
+.main{
+    display: flex;
+}
+
+

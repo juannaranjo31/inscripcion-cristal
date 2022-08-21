@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    body{
+        min-height: 100vh !important;
+    }
+
+    .welcome{
+        display: none;
+        width: 0;
+    }
+
+    .app{
+        width: 100% !important;
+    }
+
+    .main{
+        width: 100% !important;
+    }
+
+    .form{
+        width: 100% !important;
+        min-height: 100vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 1rem 0;
+
+        &-control{
+            width: 100% !important;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        &-input{
+            width: 100% !important;
+        }
+
+        &-select{
+            width: 100% !important;
+        }
+
+        &-button{
+            width: 90% !important;
+        }
+    }
+  }

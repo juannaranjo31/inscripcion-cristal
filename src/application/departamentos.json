@@ -1,0 +1,30 @@
+{
+    "atlantico": {  
+        "departamento":"Atlantico",
+        "ciudades":[  
+            "Baranoa",
+            "Barranquilla",
+            "Campo de la Cruz",
+            "Candelaria",
+            "Galapa",
+            "Juan de Acosta",
+            "Luruaco",
+            "Malambo",
+            "Manati",
+            "Palmar de Varela",
+            "Piojo",
+            "Polonuevo",
+            "Ponedera",
+            "Puerto Colombia",
+            "Repelon",
+            "Sabanagrande",
+            "Sabanalarga",
+            "Santa Lucia",
+            "Santo Tomas",
+            "Soledad",
+            "Suan",
+            "Tubarco",
+            "Usiacuri"
+        ]
+    }
+}  
