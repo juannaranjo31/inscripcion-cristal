@@ -148,7 +148,6 @@ export const FormStudents = () => {
                     onChange={(e) => setCurso(e.target.value)}>
                     <option value="0"> ¡Elige un curso! </option>
                     <option value="Building your future business">Building your future business</option>
-                    <option value="Diseño de una nueva realidad">Diseño de una nueva realidad</option>
                     <option value="Programando el futuro">Programando el futuro</option>
                 </select>
             </div>
